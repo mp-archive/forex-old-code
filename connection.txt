@@ -1,1 +1,0 @@
-C:\Windows\System32\mstsc.exe /v:95.154.237.170 /admin
