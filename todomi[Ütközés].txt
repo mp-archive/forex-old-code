@@ -1,0 +1,145 @@
+urgent:
+- nem jó tp, sl
+- gbpusd-nek megnõtt a DD-je úra kell tesztelni 
+- Egyszerre többet nyit!!!  és túl nagy lot-ok 1.8 (0.85    7400) de nem kellene mindet bezárni 
+- nem mûködik a delayminute (extra signal check mint a / init)
+- a 30-as teljesen más értékeket hoz le
+
+gondolatok!
+- legyünk bátrabbak ! (?)
+- neural NN
+- ha 5 percen belül 10 pip akkro lezár - KISZÁLLÓ STRATOK 
+- next step:  2-3 óráslezárás több deviza több pozíció, margin , 4pár 
+- mt5 signal 
+-!! mt4 test
+-> MPV1-et átrakni mql5-re
+- kódrendszert, admin-t átgondolni 
+-> global variable last_open wait in other ea
+-> végignézni a régi teszteket,... nem tudjuk megismételni azt az eredményességet, mit válaszottam ki ? 
+- mire hat az sl_onavgprice?
+- comment strat number 
+- close-ban feltétel virutális tp-sl-re 
+? hova menti az mt4 az opt result-ot?
+- alpari autochartis 
+- EA-n belül nem tud több pozíciót nyitni ha opennr>0
+
+todo:
+- olvasás, strat keresés
+- más devizák
+- ismerkedés indicatorokkal 
+-> reference-t átolvasni 
+- Alpari VPS 
+
+új tesztek:
+- !!! futtatni NL 2éves max 50% dd , nem veszít, ebbõl sokat 
+- !!! gbpusd-nek megnõtt a DD-je úra kell tesztelni
+- !!! ÚJ devizák 
+- kíváncsi:  eurusd és eurgbp egy EA-ban
+- több step eset
+- új beszállók kellenek 
+- 5perceseket kellene erõltetni, plusz magasabb szinteket 
+- kiszállás 3 perc után bármire
+- futtatni NL normált - fixlot, recov - nagyon biztos, kevés trades-bõl sokat kombinálni 
+- futtatni NL 2éves max 50% dd , nem veszít, ebbõl sokat 
+- futtatni NLagr 2 éveset 
+- futtatni NL-t órákra 
+
+fejleszteni: 
+- margin 
+- többi devizán nem mutatja az exposure-t
+- print and comment Tp and tp2
+- init!!! 
+- stop at SAR
+- nem biztos hogy mûködik a delayminutes
+- ?? 0 tp2-nél hülyeséget rak be 
+- ?? cant_send order !!!
+- ultimate stop after hour
+- !! hiba: on avg-en=2-n lezár
+- !!!! hiba: nem jó tp2, sl2,
+- tp, sl a NL_nek
+- péntek esti pendig order lezárásra (mi van ha pon az marad bent?)
+
+
+emeljük a tétet:
+- betölteni több 100 stratégiát, egy txt-bõl ..wow file megadás
+- automatizálni a tesztelést és kiválasztást (lépések) 
+
+cikk:
+- nn cikk
+- margin cikk 
+
+
+idea:
+- kereszt -> eurusd -t nézek, gbpusd-t kötök 
+
+mt4: 
+- tesztelni gbpusd-t
+
+egyéb: 
+- my fx book
+
+
+
+
+
+
+
+---------------------------------------------------------------------
+
+8002992
+
+Forex:
+-más termékek kereskedése 
+-kézi kereskedés
+-sikeres stratégia
+	keresés (webinar, példa)	FFFFF
+	tanulás-élõ kereskedés		FFFFF
+	tesztelés/próbálkozás
+	adatbányászat
+		általános vak keresés
+		konkrét mintákhoz szabálykeresés
+		gondokodó sejtek
+	neurális hálók
+-mûködõ csomag
+	átírás mql4-rõl	
+	újjáépítés modulárisan
+	moduláris stratégia
+		belépõ stratok
+		kezelés
+		zárás
+		komplex (arbitrázs)
+
+-követés
+	zulutrade
+	mt5 signals	
+-vezetés
+	zulutrade
+	mt5 signals
+	mt4 signals
+-EA értékesítés
+	bárhol régi helyeken
+	mql5 portálon
+
+-EA hosting
+-jobs
+-Contest
+
+
+
+kapcsolódó tanulás:
+- mql5
+- C++
+- rapidminer
+- R
+- 
+
+
+egyéb üzleti lehetõség:
+- folyamatos keresés / dedikált idõben 		FFFFFF
+- biztosításközvetítés
+- könyvelés
+
+
+egyéb:
+- cégalapítás
+- méglegképes
